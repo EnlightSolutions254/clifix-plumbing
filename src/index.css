@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", var(--font-sans);
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Colorful & Modern Theme - Electric Ocean */
+  --color-brand-50: #f4f9ff;
+  --color-brand-100: #e0f0ff;
+  --color-brand-200: #b8e2fc;
+  --color-brand-500: #00d2ff;
+  --color-brand-600: #0052ff;
+  --color-brand-700: #003ee0;
+  --color-brand-800: #0628a3;
+  --color-brand-900: #031454;
+  --color-brand-950: #020722;
+}
+
+/* Custom modern keyframe/transition refinements for that luxury feel */
+.text-gradient {
+  background: linear-gradient(135deg, #00d2ff 0%, #0052ff 50%, #ff007a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #020722 0%, #031454 50%, #002575 100%);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glow-effect {
+  box-shadow: 0 0 30px rgba(0, 210, 255, 0.2);
+}
+

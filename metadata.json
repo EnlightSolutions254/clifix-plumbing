@@ -1,0 +1,6 @@
+{
+  "name": "Clifix Plumbing",
+  "description": "Trusted plumbing & water infrastructure solutions by Clinton Kiruki. Expert sanitary installation, leak repair, blockages, and water supply systems in Nairobi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
