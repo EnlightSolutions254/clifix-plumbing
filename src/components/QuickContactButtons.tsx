@@ -65,3 +65,6 @@ export default function QuickContactButtons() {
           </button>
         )}
       </div>
+    </div>
+  );
+}
