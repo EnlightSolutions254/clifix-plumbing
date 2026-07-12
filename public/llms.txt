@@ -1,0 +1,6 @@
+# Climate Tech llms.txt
+This site allows public use and indexing by language models.
+
+- `purpose`: public
+- `user`: any
+- `source`: web

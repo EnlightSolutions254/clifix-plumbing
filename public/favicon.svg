@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="128" height="128">
+  <!-- Background transparent, sharp and clean vector paths for the Climate Tech logo -->
+  <g fill="none" stroke="#FF0000" stroke-width="13" stroke-linecap="butt" stroke-linejoin="miter">
+    <!-- Outer 'C' shape: a circle open on the right (from 82,30 around to 82,70) -->
+    <path d="M 82,30 A 38,38 0 1,0 82,70" />
+    
+    <!-- Top horizontal bar going all the way across -->
+    <path d="M 18,30 H 82" />
+    
+    <!-- Central 'T' vertical stem going from top of circle to bottom -->
+    <path d="M 50,12 V 88" />
+    
+    <!-- Middle-right 'L' step shape -->
+    <path d="M 50,56 H 68 V 70 H 82" />
+  </g>
+</svg>
